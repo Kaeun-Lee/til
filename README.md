@@ -13,3 +13,5 @@
 
 #### AI 데이터 분석 1-5.ipynb
 - 웹 API를 이용하여 국제 우주 정거장(ISS: International Space Station)의 정보를 가져오는 코드입니다.
+
+#### AI 데이터 분석 1-6.ipynb
