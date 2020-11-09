@@ -18,7 +18,7 @@
 - 웹 API를 이용하여 국제 우주 정거장(ISS: International Space Station)의 정보를 가져오는 코드입니다.
 
 #### AI 데이터 분석 1-6.ipynb
-- 개인 API KEY가 있어 
+- 개인 API KEY가 있어 비공개
 
 #### AI 데이터 분석 1-7.ipynb
 - 머신러닝의 지도학습 알고리즘을 이해하고, Scikit-Learn 라이브러리를 이용하여 NBA 농구선수의 포지션을 예측하는 코드입니다.  
