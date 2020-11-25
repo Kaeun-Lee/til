@@ -20,3 +20,4 @@
   2) SVM 모델  
 
 ## R_data_analysis
+R을 활용한 데이터 
