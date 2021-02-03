@@ -9,7 +9,7 @@ int main(void){
 
     draw(height);
 }
-sp
+
 void draw(int h){
     if (h == 0){
         return;       // 시작점
