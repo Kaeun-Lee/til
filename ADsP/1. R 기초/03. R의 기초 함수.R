@@ -29,4 +29,52 @@ a <- c(2,7,3)      # 1행 3열의 행렬 생성
 a
 t(a)               # 전치행렬 생성
 z <- a%*%t(a)      # 행렬 곱
-z                  # 3*4 행렬 생성
+z                 
+
+# * : 행렬에 대해서 스칼라 곱의 결과를 얻을 수 있음
+A <- matrix(c(23,41,12,35,67,1,24,7,53), nrow=3)
+A
+5*A
+
+# solve 명령어 : 행렬의 역행렬을 계산
+solve(A)
+
+
+# 3) 기초적인 대표값 및 분산 계산 ----
+# mean 함수 : 벡터의 평균
+# var 함수  : 벡터의 분산
+# sd 함수   : 벡터의 표준편차
+c <- 1:10
+mean(c)
+var(c)
+sd(c)
+
+
+# 4) 기초적인 변환 및 상관계수, 공분산 ----
+# sum 함수    : 벡터들의 합
+# median 함수 : 벡터들의 중앙값
+# log 함수    : 벡터들의 자연로그값
+sum(c)
+median(c)
+log(c)
+
+#  cov 함수 : 서로 다른 두 벡터에 대한 공분산
+#  cor 함수 : 서로 다른 두 벡터에 대한 상관계수
+a <- 1:10
+b <- log(c)
+cov(a,b)
+cor(a,b)
+
+# summary 함수 : 주어진 벡터에 대한 각 사분위수, 최솟값, 최댓값, 중앙값, 평균값
+# ★★ 범주형(factor) 열은 최솟값, 최댓값, 사분위수 등이 계산되지 않음
+summary(a)
+
+
+# ★ 기초통계 정리
+# IQR(a)           : 사분위수 범위(Interquartile Range)
+# range(a)         : 범위(최솟값과 최댓값)
+# describe()는 install.packages("psych")에 있음
+# skewness(a)      : 왜도(분포 모양)
+# kurtosis(a)      : 첨도(뾰족한 정도)
+# quantile(a)      : 사분위수
+# ★★ na.rm=T 옵션 : mean, range, sd 등 수치형 변수에 NA값이 있으면 꼭 사용해야 함
