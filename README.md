@@ -33,4 +33,5 @@ R을 활용한 데이터
 ## 모각코
 코뮤니티 모각코
      
+pytorch tutorial
   
